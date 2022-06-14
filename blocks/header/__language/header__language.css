@@ -11,7 +11,7 @@
   .header__language {
     position: absolute;
     top: 611px;
-    right: -40px;
+    right: 0;
     transform: rotate(90deg);
   }
 }

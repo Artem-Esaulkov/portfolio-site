@@ -7,6 +7,7 @@ const activateMenu = () => {
   header.style.animation = "header-active 1s";
   header.classList.add("header_active");
   page.style.overflowY = "hidden";
+  header.style.overflowY = "scroll";
   burgerIcon.style.animation = "icon-active 1s";
   burgerIcon.classList.add("about__burger-icon_active");
   burgerIcon.removeEventListener("click", activateMenu);
