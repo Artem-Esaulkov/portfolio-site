@@ -1,3 +1,3 @@
 ### Сайт-портфолио
 
-Демо-версия сайта доступна [по ссылке](artem-esaulkov.github.io/portfolio-site/)
+Демо-версия сайта доступна [по ссылке](http://artem-esaulkov.github.io/portfolio-site/)
