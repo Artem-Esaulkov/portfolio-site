@@ -1,0 +1,17 @@
+.about__photo {
+  width: 100%;
+  height: 387px;
+  margin: 0;
+  background-image: url(../../../images/Main\ photo.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 580px) {
+  .about__photo {
+    background-image: url(../../../images/Main\ photo-small.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 487px;
+  }
+}

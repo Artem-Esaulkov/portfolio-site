@@ -1,0 +1,17 @@
+.header__language {
+  margin: 0;
+  height: max-content;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 155px;
+  right: -30px;
+}
+
+@media screen and (max-width: 580px) {
+  .header__language {
+    position: absolute;
+    top: 611px;
+    right: -40px;
+    transform: rotate(90deg);
+  }
+}

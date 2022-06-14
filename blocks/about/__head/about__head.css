@@ -1,8 +1,15 @@
 .about__head {
   display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   margin-bottom: 31px;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 1000px) {
+  .about__head {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
 }
