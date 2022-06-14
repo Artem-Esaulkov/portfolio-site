@@ -1,0 +1,5 @@
+.about__lang-item_active {
+  color: #070707;
+  border-left: 2px solid #070707;
+  cursor: default;
+}

@@ -1,0 +1,14 @@
+.about__lang-item {
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #828282;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.5s ease;
+}
+
+.about__lang-item:hover {
+  color: #070707;
+}
