@@ -1,0 +1,10 @@
+.page {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  position: relative;
+}
+
+html {
+  overflow-x: hidden;
+}

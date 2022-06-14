@@ -13,3 +13,11 @@
 .header__item:hover {
   color: #070707;
 }
+
+@media screen and (max-width: 580px) {
+  .header__item {
+    margin-top: 68px;
+    font-size: 34px;
+    line-height: 42px;
+  }
+}

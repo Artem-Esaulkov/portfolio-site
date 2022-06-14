@@ -6,3 +6,9 @@
   line-height: 22px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1000px) {
+  .about__subtitle {
+    margin: 23px 0 37px;
+  }
+}

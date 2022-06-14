@@ -1,4 +1,4 @@
-.about__lang-item {
+.header__lang-item {
   font-family: "Gilroy", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -9,6 +9,13 @@
   transition: color 0.5s ease;
 }
 
-.about__lang-item:hover {
+.header__lang-item:hover {
   color: #070707;
+}
+
+@media screen and (max-width: 580px) {
+  .header__lang-item {
+    font-size: 34px;
+    line-height: 42px;
+  }
 }

@@ -1,10 +1,16 @@
 @import url(./__head/about__head.css);
 @import url(./__title/about__title.css);
 @import url(./__subtitle/about__subtitle.css);
-@import url(./__language/about__language.css);
-@import url(./__lang-item/about__lang-item.css);
+@import url(./__photo/about__photo.css);
+@import url(./__burger-icon/about__burger-icon.css);
 
 .about {
-  margin: 40px 0 104px;
-  padding: 0;
+  margin: 0;
+  padding: 40px 0 104px;
+}
+
+@media screen and (max-width: 580px) {
+  .about {
+    padding: 65px 0 83px;
+  }
 }
