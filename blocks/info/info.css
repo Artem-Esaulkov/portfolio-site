@@ -1,0 +1,15 @@
+@import url(./__content/info__content.css);
+@import url(./__text/info__text.css);
+
+.info {
+  width: 100%;
+  margin: 0;
+  padding: 120px 0 107px;
+  background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 580px) {
+  .info {
+    padding: 81px 0 76px;
+  }
+}

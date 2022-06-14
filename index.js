@@ -18,6 +18,7 @@ const closeMenu = () => {
   header.style.animation = "header-passive 1s";
   header.classList.remove("header_active");
   page.style.overflowY = "scroll";
+  header.style.overflow = "visible";
   burgerIcon.style.animation = "icon-passive 1s";
   burgerIcon.removeEventListener("click", closeMenu);
   burgerIcon.classList.remove("about__burger-icon_active");
